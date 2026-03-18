@@ -1,27 +1,367 @@
-[
-  {
-    "title": "Laboratori con bambini e ragazzi",
-    "caption": "Attività educative e creative nei percorsi di Spazio Mondi Migranti.",
-    "image": "https://static.wixstatic.com/media/94643b_dbc9d5d30c554d2e8a9ff4535481056d~mv2.jpg/v1/crop/x_0%2Cy_0%2Cw_3000%2Ch_3391/fill/w_460%2Ch_520%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG_20190223_123112.jpg"
-  },
-  {
-    "title": "Comunità sul territorio",
-    "caption": "Presenza pubblica e orientamento durante eventi e iniziative.",
-    "image": "https://static.wixstatic.com/media/94643b_93e3989a33e04e789e6fb701e06305cb~mv2.jpg/v1/crop/x_270%2Cy_0%2Cw_690%2Ch_720/fill/w_460%2Ch_480%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/rho%202018.jpg"
-  },
-  {
-    "title": "Dateci Spazio!",
-    "caption": "Inclusione, relazione e gioco per i più piccoli.",
-    "image": "https://static.wixstatic.com/media/94643b_94821e33d6614bd1b97e498832e84685~mv2.jpg/v1/fill/w_460%2Ch_380%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/83202422_778938065849556_574659750109642.jpg"
-  },
-  {
-    "title": "Spazio senza Frontiere",
-    "caption": "Narrazioni e campagne sui diritti e sui confini.",
-    "image": "https://static.wixstatic.com/media/94643b_488d2fa0c78e4d7290171185a7a3c69f~mv2.png/v1/fill/w_728%2Ch_480%2Cal_c%2Clg_1%2Cq_85%2Cenc_avif%2Cquality_auto/rotta.png"
-  },
-  {
-    "title": "Segni e identità visiva",
-    "caption": "Materiali, banner e comunicazione del progetto.",
-    "image": "https://static.wixstatic.com/media/94643b_1f8e48b5d6f14bf5b9f12765bb06dcc2~mv2.jpg/v1/fill/w_864%2Ch_475%2Cal_c%2Clg_1%2Cq_85%2Cenc_avif%2Cquality_auto/94643b_1f8e48b5d6f14bf5b9f12765bb06dcc2~mv2.jpg"
-  }
-]
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spazio Mondi Migranti — Associazione Nabad</title>
+  <meta name="description" content="Sito moderno per Associazione Nabad / Spazio Mondi Migranti con progetti, bacheca aggiornabile, galleria immagini e mini area admin." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --warm:#F4A261; --deep:#1A1A2E; --accent:#E63946; --green:#2A9D8F; --sand:#FAF3E0;
+      --text:#2D2D2D; --muted:#6F6F73; --card:rgba(255,255,255,.9); --border:#E8E0D0;
+      --shadow:0 18px 55px rgba(26,26,46,.10); --radius:24px; --max:1180px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:'DM Sans',sans-serif;color:var(--text);background:radial-gradient(circle at top left, rgba(244,162,97,.18), transparent 24%),radial-gradient(circle at top right, rgba(42,157,143,.11), transparent 28%),linear-gradient(180deg,#fffdf8 0%,var(--sand) 100%)}
+    a{color:inherit;text-decoration:none} img{max-width:100%;display:block} .container{width:min(var(--max),calc(100% - 2rem));margin:0 auto}
+    .topbar{position:sticky;top:0;z-index:1000;backdrop-filter:blur(16px);background:rgba(26,26,46,.92);border-bottom:1px solid rgba(255,255,255,.06)}
+    .nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.7rem 0}.brand{display:flex;align-items:center;gap:.9rem;color:#fff}.brand-logo{width:48px;height:48px;border-radius:16px;display:grid;place-items:center;background:#fff;color:var(--deep);font-weight:900;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+    .brand h1{margin:0;font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:800}.brand p{margin:.1rem 0 0;color:rgba(255,255,255,.7);font-size:.78rem}.nav-links{display:flex;align-items:center;gap:.35rem;flex-wrap:wrap;justify-content:flex-end}.nav-links a,.nav-links button{color:rgba(255,255,255,.74);padding:.68rem .9rem;border-radius:999px;font-size:.92rem;transition:.2s ease;background:transparent;border:0;cursor:pointer;font:inherit}.nav-links a:hover,.nav-links button:hover{color:var(--deep);background:var(--warm)}
+    .hero{padding:3rem 0 2rem}.hero-wrap{display:grid;grid-template-columns:1.16fr .92fr;gap:1.2rem;align-items:stretch}.glass{background:var(--card);border:1px solid rgba(232,224,208,.95);border-radius:32px;box-shadow:var(--shadow);overflow:hidden}.hero-main{padding:3rem}.chip{display:inline-flex;align-items:center;gap:.45rem;border:1px solid rgba(42,157,143,.18);color:var(--green);background:rgba(42,157,143,.08);padding:.48rem .9rem;border-radius:999px;font-size:.82rem;font-weight:700}
+    h2{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,4vw,5rem);line-height:.95;letter-spacing:-.045em;margin:1rem 0;color:var(--deep)} .lead{font-size:1.05rem;line-height:1.72;color:#4b4b53;max-width:62ch}.actions{display:flex;gap:.85rem;flex-wrap:wrap;margin-top:1.4rem}.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:48px;padding:.8rem 1.12rem;border-radius:14px;font-weight:700;border:0;cursor:pointer;transition:.2s ease;font-size:.95rem}.btn-primary{background:var(--deep);color:#fff}.btn-primary:hover{transform:translateY(-2px);background:#101021}.btn-secondary{background:#fff;color:var(--deep);border:1.5px solid var(--border)}.btn-secondary:hover{transform:translateY(-2px);border-color:var(--warm)}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-top:1.6rem}.stat{padding:1rem;border-radius:20px;border:1px solid var(--border);background:#fff}.stat strong{display:block;font-size:1.45rem;color:var(--deep)}.stat span{display:block;font-size:.84rem;color:var(--muted);line-height:1.45}
+    .hero-side{position:relative;min-height:540px;background:linear-gradient(180deg,rgba(26,26,46,.05),rgba(26,26,46,.62)),radial-gradient(circle at top right, rgba(244,162,97,.42), transparent 35%),url('https://static.wixstatic.com/media/94643b_dbc9d5d30c554d2e8a9ff4535481056d~mv2.jpg/v1/crop/x_0%2Cy_0%2Cw_3000%2Ch_3391/fill/w_460%2Ch_520%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG_20190223_123112.jpg') center/cover no-repeat;display:flex;align-items:flex-end}.hero-overlay{width:100%;padding:2rem;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.52))}.hero-overlay h3{margin:0 0 .6rem;font-family:'Playfair Display',serif;font-size:2rem}.hero-overlay p{margin:0;color:rgba(255,255,255,.86);line-height:1.7}
+    section{padding:1rem 0 2.4rem}.section-head{display:flex;align-items:end;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:1.2rem}.kicker{text-transform:uppercase;letter-spacing:.18em;color:var(--accent);font-size:.78rem;font-weight:700;margin-bottom:.55rem}h3.title{margin:0;font-family:'Playfair Display',serif;font-size:clamp(1.9rem,2vw,2.8rem);color:var(--deep)}.section-head p{margin:.4rem 0 0;color:var(--muted);max-width:64ch;line-height:1.72}
+    .mission-grid,.gallery-layout,.board-layout{display:grid;gap:1rem}.mission-grid{grid-template-columns:1.05fr .95fr}.board-layout{grid-template-columns:300px 1fr;align-items:start}.gallery-layout{grid-template-columns:1.15fr .85fr}.mission-card,.quote-card,.project-card,.feed-card,.panel,.gallery-card,.contact-card,.donation-card,.footer-card{background:var(--card);border-radius:26px;border:1px solid var(--border);box-shadow:var(--shadow)} .mission-card,.quote-card,.feed-card,.panel,.gallery-card,.contact-card,.donation-card,.footer-card{padding:1.3rem}
+    .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}.project-card{padding:1.3rem}.project-top{display:flex;align-items:center;gap:.9rem;margin-bottom:.9rem}.project-icon{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:rgba(42,157,143,.12);font-size:1.25rem;color:var(--green)}.project-card h4{margin:0;font-size:1.12rem;color:var(--deep)}.project-card p,.mission-card p{margin:0;color:#555;line-height:1.7;font-size:.95rem}.quote-card blockquote{margin:0;font-family:'Playfair Display',serif;font-size:1.65rem;line-height:1.32;color:var(--deep)} .quote-card small{display:block;margin-top:1rem;color:var(--muted);font-size:.9rem}
+    .panel{position:sticky;top:92px}.search{display:flex;align-items:center;gap:.7rem;padding:.82rem .95rem;border-radius:16px;border:1.5px solid var(--border);background:#fff;margin-bottom:1rem}.search input{width:100%;border:0;outline:none;background:transparent;font:inherit;color:var(--text)}.chips{display:flex;gap:.55rem;flex-wrap:wrap}.filter{border:1.5px solid var(--border);background:#fff;color:var(--deep);padding:.58rem .82rem;border-radius:999px;font-size:.82rem;cursor:pointer}.filter.active{background:var(--deep);color:#fff;border-color:var(--deep)} .note{margin-top:1rem;padding:1rem;border-radius:18px;background:rgba(244,162,97,.11);color:#7c4d1b;font-size:.89rem;line-height:1.58}
+    .posts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.post{overflow:hidden;border:1px solid var(--border);border-radius:22px;background:#fff;display:flex;flex-direction:column;min-height:100%;transition:.22s ease}.post:hover{transform:translateY(-3px);box-shadow:0 18px 44px rgba(26,26,46,.08)}.thumb{aspect-ratio:16/10;overflow:hidden;background:#f2f2f2}.thumb img{width:100%;height:100%;object-fit:cover}.body{padding:1rem 1rem 1.1rem;display:flex;flex-direction:column;flex:1}.meta{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.76rem;color:var(--muted);margin-bottom:.65rem}.pill{display:inline-flex;align-items:center;padding:.28rem .58rem;border-radius:999px;font-weight:700;background:rgba(230,57,70,.08);color:var(--accent)}.body h4{margin:0 0 .55rem;color:var(--deep);font-size:1.1rem}.body p{margin:0;color:#5c5c62;line-height:1.7;font-size:.93rem}.post-actions{margin-top:auto;padding-top:.95rem;display:flex;justify-content:space-between;align-items:center;gap:.8rem;border-top:1px solid var(--border);color:var(--muted);font-size:.82rem}.post-link{color:var(--green);font-weight:700}
+    .gallery-grid{display:grid;grid-template-columns:2fr 1fr;grid-auto-rows:190px;gap:.8rem}.gallery-item{overflow:hidden;border-radius:22px;position:relative;background:#eee}.gallery-item:first-child{grid-row:span 2}.gallery-item img{width:100%;height:100%;object-fit:cover}.gallery-item .caption{position:absolute;inset:auto 0 0 0;padding:1rem;color:#fff;background:linear-gradient(180deg,transparent,rgba(0,0,0,.65));font-size:.92rem}.gallery-side{display:grid;gap:1rem}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.contact-list{display:grid;gap:.9rem}.contact-item{padding:1rem;border-radius:18px;background:#fff;border:1px solid var(--border)}.contact-item strong{display:block;color:var(--deep);margin-bottom:.2rem}.contact-item span,.contact-item a{color:#575760;line-height:1.65}.donation-card{background:linear-gradient(135deg, rgba(26,26,46,.96), rgba(26,26,46,.87));color:#fff}.donation-card p{color:rgba(255,255,255,.84);line-height:1.7}.donation-code{display:inline-block;margin-top:.75rem;padding:.8rem 1rem;border-radius:16px;background:rgba(255,255,255,.08);font-weight:800;letter-spacing:.04em}.footer{padding:0 0 2rem}.footer-card{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center}.footer-card p{margin:.2rem 0;color:#5c5c62}.tag{display:inline-flex;padding:.35rem .65rem;border-radius:999px;background:rgba(42,157,143,.1);color:var(--green);font-size:.8rem;font-weight:700}
+    .admin-fab{position:fixed;right:20px;bottom:20px;z-index:1200;border:0;border-radius:999px;background:var(--deep);color:#fff;padding:.95rem 1.1rem;box-shadow:0 12px 28px rgba(26,26,46,.25);cursor:pointer;font-weight:700}
+    .admin-modal{position:fixed;inset:0;background:rgba(11,12,18,.55);display:none;align-items:center;justify-content:center;padding:1rem;z-index:1300}.admin-modal.open{display:flex}.admin-shell{width:min(1180px,100%);max-height:92vh;overflow:auto;background:#fff;border-radius:28px;box-shadow:0 28px 80px rgba(0,0,0,.28);padding:1.2rem}.admin-head{display:flex;justify-content:space-between;gap:1rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem}.admin-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:1rem}.admin-box{border:1px solid var(--border);border-radius:22px;padding:1rem;background:#fffdf9}.admin-box h4{margin:.1rem 0 1rem;color:var(--deep)}.admin-box label{display:block;font-size:.84rem;font-weight:700;margin:.8rem 0 .35rem}.admin-box input,.admin-box textarea,.admin-box select{width:100%;padding:.82rem .9rem;border:1.5px solid var(--border);border-radius:14px;font:inherit;background:#fff}.admin-box textarea{min-height:100px;resize:vertical}.admin-actions,.toolbar{display:flex;flex-wrap:wrap;gap:.6rem}.list-mini{display:grid;gap:.6rem;margin-top:.8rem}.mini-card{padding:.85rem;border-radius:16px;background:#fff;border:1px solid var(--border);display:flex;justify-content:space-between;gap:.8rem;align-items:start}.mini-card strong{display:block;color:var(--deep)}.mini-card small{color:var(--muted)}.soft{background:#fff;border:1.5px solid var(--border);color:var(--deep)} .danger{background:#fff0f0;border:1px solid #ffd3d6;color:#a62a35} .success{background:#edf9f7;border:1px solid #cdeee7;color:#12695e;padding:.85rem 1rem;border-radius:14px;margin-bottom:1rem;display:none}
+    @media (max-width:960px){.hero-wrap,.board-layout,.gallery-layout,.mission-grid,.contact-grid,.admin-grid{grid-template-columns:1fr}.posts,.projects{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr;grid-auto-rows:220px}.gallery-item:first-child{grid-row:auto}.panel{position:static}.hero-main{padding:2rem}.hero-side{min-height:360px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <div class="brand-logo">N</div>
+        <div>
+          <h1>Spazio Mondi Migranti</h1>
+          <p>Associazione Nabad</p>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#progetti">Progetti</a>
+        <a href="#novita">Novità</a>
+        <a href="#galleria">Galleria</a>
+        <a href="#contatti">Contatti</a>
+        <a href="https://www.instagram.com/spaziomondimigranti/" target="_blank" rel="noopener">Instagram</a>
+        <button id="openAdminNav">Admin</button>
+      </div>
+    </div>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-wrap">
+        <div class="glass hero-main">
+          <span class="chip">Associazione, comunità, territorio</span>
+          <h2>Uno spazio vivo per incontro, diritti e partecipazione.</h2>
+          <p class="lead">Spazio Mondi Migranti è il luogo in cui Associazione Nabad racconta progetti, servizi, attività educative e iniziative culturali. Un sito pensato per essere bello da vedere, semplice da aggiornare e pronto per GitHub Pages.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#novita">Scopri le attività</a>
+            <a class="btn btn-secondary" href="#contatti">Contattaci</a>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong id="statPosts">0</strong><span>post e aggiornamenti</span></div>
+            <div class="stat"><strong id="statGallery">0</strong><span>immagini in galleria</span></div>
+            <div class="stat"><strong>5×1000</strong><span>sostieni i progetti sul territorio</span></div>
+          </div>
+        </div>
+        <div class="glass hero-side">
+          <div class="hero-overlay">
+            <h3>Educazione, orientamento, comunità</h3>
+            <p>Corsi di italiano, sportello solidale, percorsi per minori, laboratori interculturali e presenza attiva sul territorio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Chi siamo</div>
+            <h3 class="title">Una presenza concreta tra scuole, famiglie e comunità.</h3>
+          </div>
+        </div>
+        <div class="mission-grid">
+          <div class="mission-card"><p>L'associazione promuove inclusione, apprendimento della lingua italiana, orientamento ai servizi e percorsi di accompagnamento per persone migranti, famiglie, bambini e ragazzi. Il sito è pensato come una casa digitale semplice da mantenere: basta modificare i file JSON oppure usare la mini area admin per creare i nuovi contenuti.</p></div>
+          <div class="quote-card"><blockquote>“Costruire spazi dove nessuno si senta fuori posto.”</blockquote><small>Visione ispirata ai progetti di Nabad e Spazio Mondi Migranti.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="progetti">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Progetti</div><h3 class="title">Ambiti di intervento</h3></div></div>
+        <div class="projects">
+          <article class="project-card"><div class="project-top"><div class="project-icon">A</div><div><h4>Corsi di italiano</h4></div></div><p>Percorsi online e in presenza per favorire autonomia, comprensione dei servizi e partecipazione sociale.</p></article>
+          <article class="project-card"><div class="project-top"><div class="project-icon">S</div><div><h4>Sportello solidale</h4></div></div><p>Orientamento su pratiche, documenti, ricongiungimenti, servizi territoriali e percorsi di accesso ai diritti.</p></article>
+          <article class="project-card"><div class="project-top"><div class="project-icon">M</div><div><h4>Minori e famiglie</h4></div></div><p>Attività educative, aiuto compiti, laboratori e accompagnamento per ragazzi e nuclei familiari.</p></article>
+          <article class="project-card"><div class="project-top"><div class="project-icon">C</div><div><h4>Comunità e cultura</h4></div></div><p>Eventi, narrazioni, campagne sociali e momenti di incontro per valorizzare pluralità e relazioni.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="novita">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Novità</div>
+            <h3 class="title">Bacheca aggiornabile</h3>
+            <p>I contenuti possono arrivare da <code>posts.json</code> oppure dall'area admin locale. Su GitHub Pages il sito resta statico: per pubblicare in modo definitivo basta esportare i JSON aggiornati e caricarli nel repository.</p>
+          </div>
+        </div>
+        <div class="board-layout">
+          <aside class="panel">
+            <div class="search"><span>🔎</span><input id="searchInput" type="text" placeholder="Cerca attività, luogo o categoria"></div>
+            <div id="categoryFilters" class="chips"></div>
+            <div class="note">Suggerimento: usa il pulsante <strong>Admin</strong> per aggiungere post e immagini. Poi clicca <strong>Esporta JSON</strong> e sostituisci i file nel repo GitHub.</div>
+          </aside>
+          <div class="feed-card"><div id="postsGrid" class="posts"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galleria">
+      <div class="container gallery-layout">
+        <div class="gallery-card">
+          <div class="section-head"><div><div class="kicker">Galleria</div><h3 class="title">Immagini e memoria visiva</h3></div></div>
+          <div id="galleryGrid" class="gallery-grid"></div>
+        </div>
+        <div class="gallery-side">
+          <div class="contact-card">
+            <div class="kicker">Instagram</div>
+            <h3 class="title" style="font-size:2rem">@spaziomondimigranti</h3>
+            <p>Collega il profilo Instagram direttamente dal sito e usa la galleria per evidenziare i contenuti più importanti.</p>
+            <div class="actions"><a class="btn btn-primary" href="https://www.instagram.com/spaziomondimigranti/" target="_blank" rel="noopener">Apri Instagram</a></div>
+          </div>
+          <div class="donation-card">
+            <div class="kicker" style="color:#f8c596">Sostieni</div>
+            <h3 class="title" style="color:#fff;font-size:2rem">5×1000</h3>
+            <p>Inserisci qui codice fiscale, IBAN, campagna associativa o CTA per volontari, soci e donazioni.</p>
+            <span class="donation-code">Aggiornabile in 10 secondi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatti">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Contatti</div><h3 class="title">Resta in contatto</h3></div></div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-list">
+              <div class="contact-item"><strong>Email</strong><a href="mailto:associazionenabad@gmail.com">associazionenabad@gmail.com</a></div>
+              <div class="contact-item"><strong>Instagram</strong><a href="https://www.instagram.com/spaziomondimigranti/" target="_blank" rel="noopener">spaziomondimigranti</a></div>
+              <div class="contact-item"><strong>Sito storico</strong><a href="https://associazionenabad.wixsite.com/nabad" target="_blank" rel="noopener">associazionenabad.wixsite.com/nabad</a></div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-list">
+              <div class="contact-item"><strong>Aggiornamento contenuti</strong><span>Usa la mini area admin per creare o modificare post e immagini. Salva sul browser, esporta in JSON e pubblica su GitHub Pages.</span></div>
+              <div class="contact-item"><strong>Hosting</strong><span>Pronto per GitHub Pages: tieni <code>index.html</code>, <code>posts.json</code> e <code>gallery.json</code> nella root del repository.</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-card">
+      <div>
+        <p><strong>Spazio Mondi Migranti — Associazione Nabad</strong></p>
+        <p>Sito statico elegante, leggero e facile da aggiornare.</p>
+      </div>
+      <div class="tag">GitHub Pages Ready</div>
+    </div>
+  </footer>
+
+  <button class="admin-fab" id="openAdminFab">Admin</button>
+
+  <div class="admin-modal" id="adminModal" aria-hidden="true">
+    <div class="admin-shell">
+      <div class="admin-head">
+        <div>
+          <div class="kicker">Mini area admin</div>
+          <h3 class="title">Gestione post e galleria</h3>
+        </div>
+        <div class="toolbar">
+          <button class="btn btn-secondary" id="loadRemoteBtn">Ricarica file base</button>
+          <button class="btn btn-secondary" id="clearLocalBtn">Reset locale</button>
+          <button class="btn btn-primary" id="closeAdminBtn">Chiudi</button>
+        </div>
+      </div>
+      <div id="saveNotice" class="success">Salvato nel browser. Esporta i JSON e caricali su GitHub per pubblicare online.</div>
+      <div class="admin-grid">
+        <div class="admin-box">
+          <h4>Nuovo / modifica post</h4>
+          <label>Titolo</label><input id="postTitle">
+          <label>Estratto</label><textarea id="postExcerpt"></textarea>
+          <label>Data</label><input id="postDate" type="date">
+          <label>Categoria</label><input id="postCategory" placeholder="Comunità, Corsi, Evento...">
+          <label>Luogo</label><input id="postLocation">
+          <label>Autore</label><input id="postAuthor">
+          <label>Immagine URL</label><input id="postImage">
+          <label>Link</label><input id="postLink">
+          <div class="admin-actions" style="margin-top:1rem">
+            <button class="btn btn-primary" id="savePostBtn">Salva post</button>
+            <button class="btn soft" id="newPostBtn">Nuovo</button>
+          </div>
+          <div id="postList" class="list-mini"></div>
+        </div>
+        <div class="admin-box">
+          <h4>Nuova / modifica immagine</h4>
+          <label>Titolo</label><input id="galTitle">
+          <label>Didascalia</label><textarea id="galCaption"></textarea>
+          <label>Immagine URL</label><input id="galImage">
+          <div class="admin-actions" style="margin-top:1rem">
+            <button class="btn btn-primary" id="saveGalleryBtn">Salva immagine</button>
+            <button class="btn soft" id="newGalleryBtn">Nuova</button>
+          </div>
+          <div id="galleryList" class="list-mini"></div>
+          <hr style="border:none;border-top:1px solid var(--border);margin:1rem 0">
+          <h4>Esporta / importa</h4>
+          <div class="admin-actions">
+            <button class="btn soft" id="exportPostsBtn">Esporta posts.json</button>
+            <button class="btn soft" id="exportGalleryBtn">Esporta gallery.json</button>
+            <label class="btn soft" for="importPostsFile">Importa posts.json</label><input id="importPostsFile" type="file" accept="application/json" hidden>
+            <label class="btn soft" for="importGalleryFile">Importa gallery.json</label><input id="importGalleryFile" type="file" accept="application/json" hidden>
+          </div>
+          <p style="color:var(--muted);line-height:1.7;margin-top:1rem">Su GitHub Pages l'admin salva in locale sul browser. Per pubblicare a tutti: esporta i due JSON e sostituiscili nel repository.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const STORAGE_POSTS = 'nabad_posts_local_v1';
+    const STORAGE_GALLERY = 'nabad_gallery_local_v1';
+    let posts = [];
+    let gallery = [];
+    let currentCategory = 'Tutti';
+    let editingPostIndex = null;
+    let editingGalleryIndex = null;
+
+    function fmtDate(value){
+      if(!value) return '';
+      const d = new Date(value + 'T00:00:00');
+      return isNaN(d) ? value : d.toLocaleDateString('it-IT', {day:'2-digit', month:'short', year:'numeric'});
+    }
+    function escapeHtml(str=''){return String(str).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
+    function saveLocal(){localStorage.setItem(STORAGE_POSTS, JSON.stringify(posts)); localStorage.setItem(STORAGE_GALLERY, JSON.stringify(gallery)); showNotice(); renderAll();}
+    function showNotice(){const el=document.getElementById('saveNotice'); el.style.display='block'; clearTimeout(window.noticeTimer); window.noticeTimer=setTimeout(()=>el.style.display='none',3000);}
+
+    async function loadData(remoteOnly=false){
+      if(!remoteOnly){
+        const localPosts = localStorage.getItem(STORAGE_POSTS);
+        const localGallery = localStorage.getItem(STORAGE_GALLERY);
+        if(localPosts && localGallery){ posts = JSON.parse(localPosts); gallery = JSON.parse(localGallery); renderAll(); return; }
+      }
+      const [pRes, gRes] = await Promise.all([fetch('./posts.json?_=' + Date.now()), fetch('./gallery.json?_=' + Date.now())]);
+      posts = await pRes.json();
+      gallery = await gRes.json();
+      if(!remoteOnly){ localStorage.setItem(STORAGE_POSTS, JSON.stringify(posts)); localStorage.setItem(STORAGE_GALLERY, JSON.stringify(gallery)); }
+      renderAll();
+    }
+
+    function renderFilters(){
+      const categories = ['Tutti', ...new Set(posts.map(p => p.category).filter(Boolean))];
+      const wrap = document.getElementById('categoryFilters');
+      wrap.innerHTML = categories.map(cat => `<button class="filter ${cat===currentCategory?'active':''}" data-cat="${escapeHtml(cat)}">${escapeHtml(cat)}</button>`).join('');
+      wrap.querySelectorAll('button').forEach(btn => btn.onclick = () => { currentCategory = btn.dataset.cat; renderPosts(); renderFilters(); });
+    }
+
+    function renderPosts(){
+      const q = document.getElementById('searchInput').value.trim().toLowerCase();
+      const filtered = posts.filter(post => {
+        const okCat = currentCategory === 'Tutti' || post.category === currentCategory;
+        const blob = [post.title, post.excerpt, post.location, post.category, post.author].join(' ').toLowerCase();
+        return okCat && (!q || blob.includes(q));
+      }).sort((a,b) => (b.date||'').localeCompare(a.date||''));
+      document.getElementById('postsGrid').innerHTML = filtered.map(post => `
+        <article class="post">
+          <div class="thumb"><img src="${escapeHtml(post.image||'')}" alt="${escapeHtml(post.title||'')}"></div>
+          <div class="body">
+            <div class="meta"><span class="pill">${escapeHtml(post.category||'Attività')}</span><span>${escapeHtml(fmtDate(post.date))}</span><span>${escapeHtml(post.location||'')}</span></div>
+            <h4>${escapeHtml(post.title||'')}</h4>
+            <p>${escapeHtml(post.excerpt||'')}</p>
+            <div class="post-actions"><span>${escapeHtml(post.author||'')}</span>${post.link ? `<a class="post-link" href="${escapeHtml(post.link)}" target="_blank" rel="noopener">Apri →</a>` : '<span></span>'}</div>
+          </div>
+        </article>`).join('') || '<p>Nessun contenuto trovato.</p>';
+      document.getElementById('statPosts').textContent = posts.length;
+    }
+
+    function renderGallery(){
+      document.getElementById('galleryGrid').innerHTML = gallery.map(item => `
+        <div class="gallery-item"><img src="${escapeHtml(item.image||'')}" alt="${escapeHtml(item.title||'')}"><div class="caption"><strong>${escapeHtml(item.title||'')}</strong><br>${escapeHtml(item.caption||'')}</div></div>
+      `).join('');
+      document.getElementById('statGallery').textContent = gallery.length;
+    }
+
+    function renderAdminLists(){
+      document.getElementById('postList').innerHTML = posts.map((p,i)=>`<div class="mini-card"><div><strong>${escapeHtml(p.title||'')}</strong><small>${escapeHtml(p.category||'')} · ${escapeHtml(fmtDate(p.date))}</small></div><div class="toolbar"><button class="btn soft" onclick="editPost(${i})">Modifica</button><button class="btn danger" onclick="deletePost(${i})">Elimina</button></div></div>`).join('');
+      document.getElementById('galleryList').innerHTML = gallery.map((g,i)=>`<div class="mini-card"><div><strong>${escapeHtml(g.title||'')}</strong><small>${escapeHtml(g.caption||'')}</small></div><div class="toolbar"><button class="btn soft" onclick="editGallery(${i})">Modifica</button><button class="btn danger" onclick="deleteGallery(${i})">Elimina</button></div></div>`).join('');
+    }
+
+    function renderAll(){ renderFilters(); renderPosts(); renderGallery(); renderAdminLists(); }
+
+    function getPostForm(){ return {
+      title: document.getElementById('postTitle').value.trim(), excerpt: document.getElementById('postExcerpt').value.trim(), date: document.getElementById('postDate').value, category: document.getElementById('postCategory').value.trim(), location: document.getElementById('postLocation').value.trim(), author: document.getElementById('postAuthor').value.trim(), image: document.getElementById('postImage').value.trim(), link: document.getElementById('postLink').value.trim()
+    }; }
+    function clearPostForm(){ editingPostIndex = null; ['postTitle','postExcerpt','postDate','postCategory','postLocation','postAuthor','postImage','postLink'].forEach(id => document.getElementById(id).value=''); }
+    function fillPostForm(post){ document.getElementById('postTitle').value=post.title||''; document.getElementById('postExcerpt').value=post.excerpt||''; document.getElementById('postDate').value=post.date||''; document.getElementById('postCategory').value=post.category||''; document.getElementById('postLocation').value=post.location||''; document.getElementById('postAuthor').value=post.author||''; document.getElementById('postImage').value=post.image||''; document.getElementById('postLink').value=post.link||''; }
+    window.editPost = function(i){ editingPostIndex = i; fillPostForm(posts[i]); openAdmin(); }
+    window.deletePost = function(i){ if(confirm('Eliminare questo post?')){ posts.splice(i,1); saveLocal(); clearPostForm(); } }
+
+    function getGalleryForm(){ return { title: document.getElementById('galTitle').value.trim(), caption: document.getElementById('galCaption').value.trim(), image: document.getElementById('galImage').value.trim() }; }
+    function clearGalleryForm(){ editingGalleryIndex = null; ['galTitle','galCaption','galImage'].forEach(id => document.getElementById(id).value=''); }
+    function fillGalleryForm(item){ document.getElementById('galTitle').value=item.title||''; document.getElementById('galCaption').value=item.caption||''; document.getElementById('galImage').value=item.image||''; }
+    window.editGallery = function(i){ editingGalleryIndex = i; fillGalleryForm(gallery[i]); openAdmin(); }
+    window.deleteGallery = function(i){ if(confirm('Eliminare questa immagine?')){ gallery.splice(i,1); saveLocal(); clearGalleryForm(); } }
+
+    function downloadJson(filename, data){ const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'}); const a=document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),1000); }
+    async function importJson(file, type){ if(!file) return; const text = await file.text(); const data = JSON.parse(text); if(!Array.isArray(data)) throw new Error('JSON non valido'); if(type==='posts') posts = data; else gallery = data; saveLocal(); }
+
+    function openAdmin(){ document.getElementById('adminModal').classList.add('open'); document.body.style.overflow='hidden'; }
+    function closeAdmin(){ document.getElementById('adminModal').classList.remove('open'); document.body.style.overflow=''; }
+
+    document.getElementById('searchInput').addEventListener('input', renderPosts);
+    document.getElementById('openAdminFab').onclick = openAdmin;
+    document.getElementById('openAdminNav').onclick = openAdmin;
+    document.getElementById('closeAdminBtn').onclick = closeAdmin;
+    document.getElementById('adminModal').addEventListener('click', e => { if(e.target.id==='adminModal') closeAdmin(); });
+
+    document.getElementById('savePostBtn').onclick = () => {
+      const item = getPostForm();
+      if(!item.title || !item.excerpt) return alert('Inserisci almeno titolo ed estratto.');
+      if(editingPostIndex === null) posts.unshift(item); else posts[editingPostIndex] = item;
+      saveLocal(); clearPostForm();
+    };
+    document.getElementById('newPostBtn').onclick = clearPostForm;
+
+    document.getElementById('saveGalleryBtn').onclick = () => {
+      const item = getGalleryForm();
+      if(!item.title || !item.image) return alert('Inserisci almeno titolo e immagine.');
+      if(editingGalleryIndex === null) gallery.unshift(item); else gallery[editingGalleryIndex] = item;
+      saveLocal(); clearGalleryForm();
+    };
+    document.getElementById('newGalleryBtn').onclick = clearGalleryForm;
+
+    document.getElementById('exportPostsBtn').onclick = () => downloadJson('posts.json', posts);
+    document.getElementById('exportGalleryBtn').onclick = () => downloadJson('gallery.json', gallery);
+    document.getElementById('importPostsFile').onchange = async e => { try{ await importJson(e.target.files[0], 'posts'); } catch(err){ alert('Errore import posts.json'); } e.target.value=''; };
+    document.getElementById('importGalleryFile').onchange = async e => { try{ await importJson(e.target.files[0], 'gallery'); } catch(err){ alert('Errore import gallery.json'); } e.target.value=''; };
+    document.getElementById('clearLocalBtn').onclick = () => { if(confirm('Resetto i contenuti locali e ricarico i file del repository?')){ localStorage.removeItem(STORAGE_POSTS); localStorage.removeItem(STORAGE_GALLERY); clearPostForm(); clearGalleryForm(); loadData(true).then(()=>{localStorage.setItem(STORAGE_POSTS, JSON.stringify(posts));localStorage.setItem(STORAGE_GALLERY, JSON.stringify(gallery));}); } };
+    document.getElementById('loadRemoteBtn').onclick = () => loadData(true).then(()=>showNotice());
+
+    loadData();
+  </script>
+</body>
+</html>
