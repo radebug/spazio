@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Corsi di italiano online e in presenza",
+    "excerpt": "Nel sito attuale Nabad presenta i corsi di italiano come uno strumento di accesso, autonomia e partecipazione. Questa card può essere aggiornata con date, orari e link di iscrizione.",
+    "date": "2026-03-18",
+    "category": "Corsi",
+    "location": "Rho / Online",
+    "author": "Segreteria Nabad",
+    "image": "https://static.wixstatic.com/media/94643b_cf275e88a1ba42d7a4c0c94134c43778~mv2.png/v1/fill/w_460%2Ch_440%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/Volantino%20corsi%20onlineA5.png",
+    "link": "https://associazionenabad.wixsite.com/nabad"
+  },
+  {
+    "title": "Sportello solidale per pratiche e orientamento",
+    "excerpt": "Supporto su rinnovi dei PDS, ricongiungimenti familiari, test di italiano per il permesso CE e orientamento ai servizi presenti sul territorio.",
+    "date": "2026-03-10",
+    "category": "Sportello",
+    "location": "Parabiago / Rho",
+    "author": "Volontari Nabad",
+    "image": "https://static.wixstatic.com/media/94643b_93e3989a33e04e789e6fb701e06305cb~mv2.jpg/v1/crop/x_270%2Cy_0%2Cw_690%2Ch_720/fill/w_460%2Ch_480%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/rho%202018.jpg",
+    "link": "https://associazionenabad.wixsite.com/nabad"
+  },
+  {
+    "title": "Dateci Spazio! attività per bambini e ragazzi",
+    "excerpt": "Uno spazio di socializzazione, aiuto compiti e laboratorio di italiano per ragazzi dai 6 ai 13 anni, con attenzione al ponte tra famiglie e scuola.",
+    "date": "2026-02-28",
+    "category": "Minori",
+    "location": "Castano Primo",
+    "author": "Equipe educativa",
+    "image": "https://static.wixstatic.com/media/94643b_94821e33d6614bd1b97e498832e84685~mv2.jpg/v1/fill/w_460%2Ch_380%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/83202422_778938065849556_574659750109642.jpg",
+    "link": "https://associazionenabad.wixsite.com/nabad"
+  },
+  {
+    "title": "Io sono qui! accompagnare i ragazzi ricongiunti",
+    "excerpt": "Un percorso pensato per bambini e ragazzi arrivati successivamente in Italia, per sostenere lingua, scuola, relazioni e cambiamento familiare.",
+    "date": "2026-02-20",
+    "category": "Minori",
+    "location": "Lombardia",
+    "author": "Spazio Mondi Migranti",
+    "image": "https://static.wixstatic.com/media/94643b_dbc9d5d30c554d2e8a9ff4535481056d~mv2.jpg/v1/crop/x_0%2Cy_0%2Cw_3000%2Ch_3391/fill/w_460%2Ch_520%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG_20190223_123112.jpg",
+    "link": "https://associazionenabad.wixsite.com/nabad"
+  },
+  {
+    "title": "Spazio senza Frontiere: community e diritti",
+    "excerpt": "Una social community per la cultura dell'incontro, con racconti di persone, storie di solidarietà e attenzione alle rotte migratorie e ai confini.",
+    "date": "2026-02-15",
+    "category": "Comunità",
+    "location": "Online",
+    "author": "Redazione SMM",
+    "image": "https://static.wixstatic.com/media/94643b_9de030250f4f4f2fbf6cc974fdaf9fd7~mv2.png/v1/fill/w_460%2Ch_440%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/Spazio%20senza%20Frontiere%21%20%281%29.png",
+    "link": "https://associazionenabad.wixsite.com/nabad/spaziosenzafrontiere"
+  },
+  {
+    "title": "Laboratorio interculturale: I colori del mondo",
+    "excerpt": "Nel progetto Spazio senza Frontiere compare anche il laboratorio interculturale con giochi, musica, storie e immagini sul tema del viaggio e dell'incontro.",
+    "date": "2021-06-10",
+    "category": "Comunità",
+    "location": "Parabiago",
+    "author": "Volontari Nabad",
+    "image": "https://static.wixstatic.com/media/94643b_d73a26129fa5447999ab96278f45b0a4~mv2.jpg/v1/crop/x_0%2Cy_28%2Cw_1072%2Ch_638/fill/w_940%2Ch_560%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/pignatta%20festa%202017_o.jpg",
+    "link": "https://associazionenabad.wixsite.com/nabad/spaziosenzafrontiere"
+  }
+]
